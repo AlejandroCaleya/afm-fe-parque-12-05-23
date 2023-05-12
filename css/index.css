@@ -22,7 +22,29 @@ body {
     /* border: 3px red solid; */
     width: 15%;
     float: left;
-}
+    }
+
+    button {
+        width: 85px;
+        height: 30px;
+        background-color: rgba(86, 196, 86, 0.821);
+        border: 1px gray solid;
+        /* padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 5px;
+        padding-bottom: 5px; */
+        margin-top: 10%;
+        
+    }
+
+    button:hover {
+        background-color: rgb(225, 183, 129);
+    }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
 
 #content {
     margin: 0;
@@ -37,7 +59,7 @@ body {
 }
 
 h1 {
-    text-align: center;
+    padding-left: 17%;
     color: forestgreen;
 }
 
@@ -62,3 +84,4 @@ ul {
 p {
     text-align: justify;
 }
+
