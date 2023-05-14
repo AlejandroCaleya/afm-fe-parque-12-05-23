@@ -5,6 +5,12 @@
 body {
     margin: auto;
     width: 900px;
+    border-radius: 15px;
+}
+
+img {
+    padding-left: 5%;
+    padding-top: 2.5%;
 }
 
 #cabecera {
@@ -28,17 +34,15 @@ body {
         width: 85px;
         height: 30px;
         background-color: rgba(86, 196, 86, 0.821);
+        background-image: linear-gradient(to bottom, #ffffff, rgba(58, 141, 58, 0.821) 100%);
         border: 1px gray solid;
-        /* padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 5px;
-        padding-bottom: 5px; */
         margin-top: 10%;
         
     }
 
     button:hover {
         background-color: rgb(225, 183, 129);
+        background-image: linear-gradient(to bottom, #ffffff, rgb(197, 160, 110) 100%);
     }
 
         a {
@@ -56,6 +60,10 @@ body {
     /* margin-top: 2%; */
     padding-left: 2%;
     padding-right: 2%;
+    background-color: lightgray;
+    background-image: linear-gradient(to top, #FFFFFF, lightgrey);
+    background-image: linear-gradient(to bottom, #FFFFFF, lightgrey);
+
 }
 
 h1 {
